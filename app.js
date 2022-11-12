@@ -18,7 +18,7 @@ const calculateBMI = () => {
     const vaegt = vaegtInput.value;
     const hoejde = hoejdeInput.value;
     if(vaegt && hoejde){
-        const bmi = (vaegt) / (hoejde * hoejde);
+        const bmi = (vaegt) / (hoejde ** 2);
 
         if(isNaN(bmi)) {
             hideResults();
