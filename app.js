@@ -48,3 +48,4 @@ const calculateBMI = () => {
 
 hoejdeInput.addEventListener('input', calculateBMI);
 vaegtInput.addEventListener('input', calculateBMI);
+console.log(vaegtInput)
