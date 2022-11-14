@@ -50,3 +50,4 @@ hoejdeInput.addEventListener('input', calculateBMI);
 vaegtInput.addEventListener('input', calculateBMI);
 console.log(vaegtInput)
 console.log(hoejdeInput)
+console.log(bmiElement)
